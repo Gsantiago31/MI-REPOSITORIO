@@ -1,0 +1,13 @@
+# Primer ejemplo ciclo 'for'
+
+numeros = [1,2,3,4,5]
+
+suma_pares = 0
+for i in range(len(numeros)):
+      if numeros[i] % 2 == 0:
+         suma_pares = suma_pares + numeros[i] 
+
+         print(suma_pares)
+
+      
+print('Suma de pares es: ',suma_pares)
