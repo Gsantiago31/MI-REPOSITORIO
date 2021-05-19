@@ -1,0 +1,30 @@
+# range(comienzo, fin, paso)  Entre comienzo y el próximo elemento existirá una diferencia de paso, y así sucesivamente con el próximo elemento.  
+
+# Sumar los numeros pares  del 10 al 20 utilizando range(comienzo, fin, paso)
+# [10,11,12,13,14,15,16,17,18,19,20]
+# [10,12,14,16,18,20]
+
+# Inicios con el ciclo 'for'
+# Suma de los numeros de la lista
+
+# Inicios con el ciclo 'for'
+# Suma de los numeros impares de la lista
+
+numeros = [10,11,12,13,14,15,16,17,18,19,20]
+
+suma_pares = 0
+for i  in range(len(numeros)) :
+        if numeros[i] % 2 ==0 :
+           suma_pares = suma_pares + numeros[i]
+           print(suma_pares)
+
+print('***')
+
+print(suma_pares)
+
+
+print('---------------------------')
+
+for numeros_pares in range(10, 21, 2):
+        print(numeros_pares)
+print('***')
